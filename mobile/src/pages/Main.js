@@ -2,7 +2,6 @@ import React, {useEffect, useState} from 'react';
 import io from 'socket.io-client';
 import AsyncStorage from '@react-native-community/async-storage';
 
-
 import {
   View,
   Text,
@@ -25,7 +24,6 @@ export default function Main({navigation}) {
   const [matchDev, setMatchDev] = useState(null);
 
   useEffect(() => {
-    //comunica com o backend
     const socket = io('http://localhost:3333', {
       query: {user: id},
     });
@@ -40,8 +38,8 @@ export default function Main({navigation}) {
       const response = await api.get('/devs', {
         headers: {
           user: id,
-        },,
-      });;
+        },
+      });
 
       setUsers(response.data);
     }
@@ -53,7 +51,7 @@ export default function Main({navigation}) {
 
     await api.post(`/devs/${user._id}/likes`, null, {
       headers: {user: id},
-    });;
+    });
     setUsers(rest);
   }
 
@@ -62,7 +60,7 @@ export default function Main({navigation}) {
 
     await api.post(`/devs/${user._id}/dislikes`, null, {
       headers: {user: id},
-    });;
+    });
     setUsers(rest);
   }
 
@@ -73,12 +71,12 @@ export default function Main({navigation}) {
   }
 
   return (
-  <SafeAreaView style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <TouchableOpacity onPress={handleLogout}>
         <Image style={styles.logo} source={logo} />
       </TouchableOpacity>
 
-  <View style={styles.cardsContainer}>
+      <View style={styles.cardsContainer}>
         {users.length === 0 ? (
           <Text style={styles.empty}>Acabou :( </Text>
         ) : (

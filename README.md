@@ -14,7 +14,8 @@ Tindev
   </a>
 </p>
 
-[//]: # (Add your gifs/images here:)
+[//]: # "Add your gifs/images here:"
+
 <div>
   <img src="https://user-images.githubusercontent.com/44379034/75064258-f76e3080-54bc-11ea-8deb-0dc3dece945b.gif" alt="demo" height="425">
 </div>
@@ -22,37 +23,40 @@ Tindev
 <hr />
 
 ## Features
-[//]: # (Add the features of your project here:)
+
+[//]: # "Add the features of your project here:"
+
 This app features all the latest tools and practices in mobile development!
 
--  **React Js** — A JavaScript library for building user interfaces
--  **React Native** — A lib that provides a way to create native apps for Android and iOS
--  **Node Js** — A web framework for Node Js
+- **React Js** — A JavaScript library for building user interfaces
+- **React Native** — A lib that provides a way to create native apps for Android and iOS
+- **Node Js** — A web framework for Node Js
+- **MongoDb** — A cross-platform and open-source document-oriented database
+- **Scoket IO** — A library for realtime web applications
 
 ## Getting started
-1. Clone this repo using git clone ```https://github.com/fzuffo/Tindev.git```
+
+1. Clone this repo using git clone `https://github.com/fzuffo/Tindev.git`
 2. Follow instructions bellow
 
-
 ## Backend
-1. Move yourself to the backend folder: ```cd backend```   
-2. Rename the file ```.env.example``` to ```.env``` and add the url MongoDb url connection in ```MONGO_URL``` field   
-3. Run ```yarn install``` to install dependencies
-4. Run ```yarn dev``` to start the server
 
+1. Move yourself to the backend folder: `cd backend`
+2. Rename the file `.env.example` to `.env` and add the url MongoDb url connection in `MONGO_URL` field
+3. Run `yarn install` to install dependencies
+4. Run `yarn dev` to start the server
 
 ## Frontend
-1. Move yourself to the frontend folder: ```cd frontend``` 
-2. Run ```yarn install``` to install dependencies
-3. Run ```yarn start``` to start the server
 
+1. Move yourself to the frontend folder: `cd frontend`
+2. Run `yarn install` to install dependencies
+3. Run `yarn start` to start the server
 
 ## Mobile
-1. Move yourself to the mobile folder: ```cd mobile```   
-2. Run ```yarn install``` to install dependencies
-3. Run ```react-native run-ios``` or ```react-native run-android``` to start the server
 
-
+1. Move yourself to the mobile folder: `cd mobile`
+2. Run `yarn install` to install dependencies
+3. Run `react-native run-ios` or `react-native run-android` to start the server
 
 ### License
 
