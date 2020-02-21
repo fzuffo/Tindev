@@ -37,17 +37,20 @@ This app features all the latest tools and practices in mobile development!
 ## Backend
 1. Move yourself to the backend folder: ```cd backend```   
 2. Rename the file ```.env.example``` to ```.env``` and add the url MongoDb url connection in ```MONGO_URL``` field   
-3. Run ```yarn dev``` to start the server
+3. Run ```yarn install``` to install dependencies
+4. Run ```yarn dev``` to start the server
 
 
 ## Frontend
-1. Move yourself to the frontend folder: ```cd frontend```   
-2. Run ```yarn start``` to start the server
+1. Move yourself to the frontend folder: ```cd frontend``` 
+2. Run ```yarn install``` to install dependencies
+3. Run ```yarn start``` to start the server
 
 
 ## Mobile
 1. Move yourself to the mobile folder: ```cd mobile```   
-2. Run ```react-native run-ios``` or ```react-native run-android``` to start the server
+2. Run ```yarn install``` to install dependencies
+3. Run ```react-native run-ios``` or ```react-native run-android``` to start the server
 
 
 
