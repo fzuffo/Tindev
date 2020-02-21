@@ -32,7 +32,7 @@ This app features all the latest tools and practices in mobile development!
 - **React Native** — A lib that provides a way to create native apps for Android and iOS
 - **Node Js** — A web framework for Node Js
 - **MongoDb** — A cross-platform and open-source document-oriented database
-- **Scoket IO** — A library for realtime web applications
+- **Socket IO** — A library for realtime web applications
 
 ## Getting started
 
