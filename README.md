@@ -6,7 +6,7 @@
 Tindev
 </h1>
 
-<p align="center">A clone of tinder for devs, mobile and web app, built in a Omnistack Week</p>
+<p align="center">A clone of tinder for devs, mobile and web app, built in a 8th Omnistack Week</p>
 
 <p align="center">
   <a href="https://opensource.org/licenses/MIT">
