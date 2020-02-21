@@ -16,7 +16,7 @@ Tindev
 
 [//]: # (Add your gifs/images here:)
 <div>
-  <img src="https://media.giphy.com/media/H3NKa0dmd9aPKeIOKT/giphy.gif" alt="demo" height="425">
+  <img src="https://user-images.githubusercontent.com/44379034/75064258-f76e3080-54bc-11ea-8deb-0dc3dece945b.gif" alt="demo" height="425">
 </div>
 
 <hr />
