@@ -8,23 +8,20 @@ const app = express();
 const server = require("http").Server(app);
 const io = require("socket.io")(server);
 
-const connectedUsers = {
-  // connectedUsers[ID_USUARIO] = socket.id;
-};
+const dotenv = require("dotenv");
+dotenv.config();
+
+const connectedUsers = {};
 
 io.on("connection", socket => {
   const { user } = socket.handshake.query;
 
   connectedUsers[user] = socket.id;
-  // socket faz a transição de mensagens entre o backend e frontend em tempo real
 });
 
-mongoose.connect(
-  "mongodb+srv://dbUser:mongooseDb@cluster0-b0uki.mongodb.net/test?retryWrites=true&w=majority",
-  {
-    useNewUrlParser: true
-  }
-);
+mongoose.connect(process.env.MONGO_URL, {
+  useNewUrlParser: true
+});
 
 app.use((req, res, next) => {
   req.io = io;
