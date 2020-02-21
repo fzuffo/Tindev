@@ -46,7 +46,7 @@ This app features all the latest tools and practices in mobile development!
 
 
 ## Mobile
-1. Move yourself to the frontend folder: ```cd mobile```   
+1. Move yourself to the mobile folder: ```cd mobile```   
 2. Run ```react-native run-ios``` or ```react-native run-android``` to start the server
 
 
